@@ -1,0 +1,151 @@
+/*App.css (Desktop Version) */
+.app-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2d3748;
+}
+
+/* Navigation Styles */
+.nav-panel {
+  background-color: #1a202c;
+  padding: 1.5rem 3rem; /* Increased padding for desktop */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+}
+
+.nav-title {
+  color: #a3bffa;
+  font-size: 2rem; /* Larger font for desktop */
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-title::after {
+  content: " ∣";
+  color: #a3bffa;
+  margin-left: 1rem; /* More spacing */
+}
+
+.nav-button {
+  padding: 0.75rem 2rem; /* Larger padding for desktop */
+  background-color: #6b46c1;
+  border: none;
+  border-radius: 6px; /* Slightly larger radius */
+  color: white;
+  font-size: 1.25rem; /* Larger font */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #553c9a;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem; /* More padding for desktop */
+}
+
+.upload-area {
+  background-color: #edf2f7;
+  border: 2px dashed #cbd5e0;
+  border-radius: 12px; /* Larger radius */
+  padding: 3rem; /* More internal padding */
+  text-align: center;
+  width: 100%;
+  max-width: 700px; /* Wider max-width for desktop */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Larger shadow */
+}
+
+.upload-area h2 {
+  margin: 0 0 1.5rem; /* More spacing */
+  color: #2d3748;
+  font-size: 2rem; /* Larger heading */
+  font-weight: 700;
+}
+
+.upload-area p {
+  margin: 0.75rem 0; /* Slightly more spacing */
+  color: #718096;
+  font-size: 1.25rem; /* Larger text */
+}
+
+.upload-area .upload-icon::before {
+  content: "↑↓";
+  font-size: 3rem; /* Larger icon */
+  color: #6b46c1;
+  display: block;
+  margin-bottom: 1.5rem; /* More spacing */
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 1rem 2rem; /* Larger padding */
+  background-color: #6b46c1;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Larger radius */
+  cursor: pointer;
+  font-size: 1.25rem; /* Larger font */
+  transition: background-color 0.3s;
+  margin-top: 1.5rem; /* More spacing */
+}
+
+.upload-button:hover {
+  background-color: #553c9a;
+}
+
+.file-info {
+  margin-top: 1.5rem; /* More spacing */
+  padding: 0.75rem; /* Slightly larger padding */
+  background-color: #e2e8f0;
+  border-radius: 6px; /* Larger radius */
+  color: #2d3748;
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem; /* More padding */
+  color: #718096;
+  font-size: 1rem; /* Slightly larger font */
+}
+/* Add this to App.css */
+.feedback-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  border: 1px solid #cbd5e0;
+  color: #2d3748;
+}
+
+.feedback-container h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.feedback-container p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+
+.feedback-container strong {
+  color: #6b46c1;
+}
