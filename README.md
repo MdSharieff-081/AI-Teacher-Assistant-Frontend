@@ -1,16 +1,97 @@
-<<<<<<< HEAD
-# AI-Teacher-Assistant-Frontend
-=======
-# React + Vite
+# 🧠 AI-Teacher-Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered tool that automates grading and provides personalized feedback for student submissions, built to support educators in the digital era.
 
-Currently, two official plugins are available:
+> 🚀 Developed as part of the **Google Solution Challenge 2025**  
+> 🌍 Aligns with **UN SDG 4: Quality Education**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 9e602fc (Initial Commit)
+The **AI-Teacher-Assistant** is a smart grading system that helps teachers evaluate student assignments more efficiently. It extracts text from uploaded PDFs, analyzes it using advanced AI models, and generates grades and constructive feedback instantly — all through a simple dashboard interface.
+
+---
+
+## ✨ Features
+
+- 📄 PDF Upload for Student Assignments
+- 🧠 AI-Powered Evaluation (Gemini API)
+- 🔍 OCR + PDF Parsing for Text Extraction
+- 📊 Automated Grading and Feedback Generation
+- 🖥️ Teacher Dashboard (React.js)
+- 🔐 Authentication (Planned)
+- 🔁 Feedback Editable by Teachers (Planned)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Tech                        |
+|------------|-----------------------------|
+| Frontend   | React.js                    |
+| Backend    | Node.js, Express.js         |
+| AI Engine  | Gemini API                  |
+| Parsing    | OCR, PDF Parser             |
+| Storage    | None (direct processing)    |
+| Auth       | Planned for future release  |
+
+---
+
+## 🧩 Architecture Diagram
+
+![Architecture Diagram](./A_flowchart_in_a_digital_diagram_illustrates_the_a.png)
+
+---
+
+## 🎬 Video Demo
+
+👉 [Watch the Demo](#)  
+*(Replace `#` with the actual video link when available)*
+
+---
+
+## ⚙️ How It Works
+
+1. **Student uploads** a student assignment in PDF format.
+2. The backend **extracts text** using PDF parsing and OCR.
+3. Extracted text is sent to **Gemini API**, which:
+   - Evaluates content
+   - Assigns a grade
+   - Generates constructive feedback
+4. Results are returned to the **React dashboard** for review.
+5. Future updates will include **login**, **edit options**, and **student view access**.
+
+---
+
+## 🚧 Future Scope
+
+- 🧑‍🎓 Student Login and Dashboard
+- 🗂️ File History & Grading Analytics
+- 🔐 Role-Based Authentication
+- 📝 Editable AI Feedback
+- ✍️ Support for Handwritten Text via Enhanced OCR
+
+---
+
+## 🤝 Contribution
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 🪪 License
+
+This project is free to use for educational and nonprofit purposes.
+
+---
+
+## 💬 Team Info
+
+**Team Name**: CodeCelestials  
+**Project Lead**: Garaga Naveen Kumar  
+**Challenge**: Google Solution Challenge 2025  
+
+---
+
+
