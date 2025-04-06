@@ -38,11 +38,6 @@ The **AI-Teacher-Assistant** is a smart grading system that helps teachers evalu
 
 ---
 
-## 🧩 Architecture Diagram
-
-![Architecture Diagram](./A_flowchart_in_a_digital_diagram_illustrates_the_a.png)
-
----
 
 ## 🎬 Video Demo
 
