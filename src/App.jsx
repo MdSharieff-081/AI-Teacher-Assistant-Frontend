@@ -35,10 +35,13 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('https://ai-teacher-assistant-backend.vercel.app/upload', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        }
+      // const response = await axios.post('https://ai-teacher-assistant-backend.vercel.app/upload', formData, {
+      //   headers: {
+      //     'Content-Type': 'multipart/form-data'
+      //   }
+      app.get("/api/hello", (req, res) => {
+        res.json({ message: "Hello World" });
+      
       });
       // Assuming the backend returns { grade, feedback }
       setUploadStatus('Upload successful!');
