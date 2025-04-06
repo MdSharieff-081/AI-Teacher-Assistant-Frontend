@@ -35,7 +35,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://your-backend-api-endpoint', formData, {
+      const response = await axios.post('https://ai-teacher-assistant-backend.vercel.app/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
