@@ -41,8 +41,8 @@ The **AI-Teacher-Assistant** is a smart grading system that helps teachers evalu
 
 ## 🎬 Video Demo
 
-👉 [Watch the Demo](#)  
-*(Replace `#` with the actual video link when available)*
+👉 [Watch the Demo](https://youtu.be/Ne0mIcdzr68?feature=shared)  
+
 
 ---
 
